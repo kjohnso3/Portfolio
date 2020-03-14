@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: verdana;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+  }
+  
+  nav {
+    position: fixed;
+    background-color: darkgray;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+  
+  
+  header {
+    padding: 30px;
+    background-color: lightgrey;
+  }
+  
+  headshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 8px;
+  }
+
+  button {
+    text-decoration: underline;
+  }
+
+  list {
+      list-style-type: none;
+  }
+  
+  section {
+    min-height: 200px;
+    padding: 6% 0;
+    background-color: grey;
+  }
+  
+  
+  paragraph {
+    max-width: 75px;
+  }
+  
+  @media only screen and (min-width: 400px){
+    section {
+    display:flex;
+    margin-left:auto;
+    }
+  }
+  
