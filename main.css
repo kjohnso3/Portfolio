@@ -43,6 +43,7 @@
   
   section {
     display: inline-block;
+    text-align: left;
     min-height: 200px;
     padding: 6% 0;
     background-color: grey;
